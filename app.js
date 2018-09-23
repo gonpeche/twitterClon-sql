@@ -32,6 +32,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 // rutas modulares
 app.use('/', routes);
 
+
 // // static file middleware escrito manualmente
 // app.use(function(req, res, next){
 //   var mimeType = mime.lookup(req.path);
